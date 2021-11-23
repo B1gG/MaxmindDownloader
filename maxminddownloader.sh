@@ -28,7 +28,7 @@ CONFIG_FILE="maxminddownloader.conf"
 printf "${BLUE}Loading the config from $CONFIG_FILE ...${STOP}\n"
 if [ -e $CONFIG_FILE ]
 then
-    LICENSE_KEY=`cat $CONFIG_FILE | grep -Po 'AUTH_KEY="?\K[^"?]*'`
+    LICENSE_KEY=`cat $CONFIG_FILE | grep -Po 'LICENSE_KEY="?\K[^"?]*'`
 else
     printf "${RED}Config File $CONFIG_FILE not found.${STOP}\n"
     exit 1
