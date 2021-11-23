@@ -13,7 +13,7 @@ To install this script follow the steps:
 
 2. Log into your MaxMind account, go to your **Account Summary** and click in the section **Manage License Keys** in the left menu and then generate the License Key by clicking in **Generate new license key**. Make sure you copy the key and store in a safe place.
 
-3. Edit the file maxminddownloader.conf file and add the license key as:
+3. Edit the file `maxminddownloader.conf` file and add the license key as:
 
    ```bash
    LICENSE_KEY="HEREGOESYOURLICENSEKEY"
